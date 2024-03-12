@@ -4,12 +4,10 @@
 import requests
 from bs4 import BeautifulSoup as bs
 import csv
+from datetime import date
 
-# page = 1
-# while page !=50:
-#     url = f'{photo_video}?page={page}'
-#     print(url)
-#     page += 1
+# Get current date
+today = date.today()
 
 # A list of 'root' websites from Henry's Camera Photo.
 promos = 'https://www.henryscameraphoto.com/promos'
@@ -41,7 +39,7 @@ items = soup.select('h4>a')
 prices = soup.findAll('span', attrs={'class':'price-new'})
 
 # Creates a .csv file to write the outputs (ITEM, PRICE)
-file = open('henrys_scraped.csv', 'w', encoding='UTF-8')
+file = open(f'henrys_scraped_{today}.csv', 'w', encoding='UTF-8')
 writer = csv.writer(file)
 
 writer.writerow(['ITEM', 'PRICE'])
