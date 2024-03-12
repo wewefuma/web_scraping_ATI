@@ -1,4 +1,4 @@
-<h>Web Scraping Project using BeautifulSoup4 on Python</h>
+<h1>Web Scraping Project using BeautifulSoup4 on Python</h1>
 
 <p>This web scraping script pulls data from the e-commerce website of <a href="https://www.henryscameraphoto.com/">Henry's Camera Photo</a>.</p></br>
 
