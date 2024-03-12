@@ -28,9 +28,10 @@ page = 1
 for website in website_array:
     while page != 50:
         url = f'{website}?page={page}'
-        page_to_scrape = requests.get(website)
+        page_to_scrape = requests.get(url)
         soup = bs(page_to_scrape.text, 'html.parser')
         full_html += str(soup)
+        page += 1
     page = 1
 
 soup = bs(full_html, 'html.parser')
