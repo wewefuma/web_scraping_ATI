@@ -15,6 +15,7 @@
   <ol>Install brew.</ol>
   <ol>On your terminal, type <code>brew install python</code>.</ol>
   <ol>After installation, type <code>brew install BeautifulSoup4 --break-system-packages</code>.</ol>
+  <ol>Type <code>brew install requests</code>.</ol>
   <ol>Navigate terminal inside the folder where project is located.</ol>
   <ol>Run <code>python henrys.py</code>.</ol>
 </ul>
