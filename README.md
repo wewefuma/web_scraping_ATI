@@ -14,8 +14,18 @@
 <ul>
   <ol>Install brew.</ol>
   <ol>On your terminal, type <code>brew install python</code>.</ol>
-  <ol>After installation, type <code>brew install BeautifulSoup4 --break-system-packages</code>.</ol>
-  <ol>Type <code>brew install requests</code>.</ol>
+  <ol>After installation, navigate to your desired project destination.</ol>
+  <ol><bold>OPTIONAL:</bold> Create a <italic>virtual environment using Python</italic> by typing <code>python -m venv &lt;PATH&gt;</code>. This is optional, but encouraged to ensure cleanliness in storage and dependencies.</ol>
+  <ol>Once in the desired destination, create another directory by typing <code>mkdir &lt;FOLDER NAME&gt;</code>.</ol>
+  <ol>Navigate to the newly created folder.</ol>
+  <ol>Type in <code>brew install git</code>.</ol>
   <ol>Navigate terminal inside the folder where project is located.</ol>
+  <ol>Type <code>git init</code>.</ol>
+  <ol>Type <code>git pull https://github.com/wewefuma/web_scraping_ATI.git</code>.</ol>
+  <ol>Navigate to base folder.</ol>
+  <ol>Type <code>source bin/activate</code>.</ol>
+  <ol>Type <code>pip install bs4</code>.</ol>
+  <ol>Type <code>pip install requests</code>.</ol>
+  <ol>Type <code>pip install csv</code>.</ol>
   <ol>Run <code>python henrys.py</code>.</ol>
 </ul>
