@@ -13,18 +13,16 @@
 <h4><b>Mac:</b></h4>
 <ul>
   <ol>Open <b>terminal</b>.</ol>
-  <ol>Copy and paste <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code>.</ol>
-  <ol>On your terminal, type <code>brew install python</code>.</ol>
+  <ol>Copy and paste <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code>. Wait for installation to finish.</ol>
+  <ol>On your terminal, type <code>brew install python</code>. Wait for installation to finish.</ol>
+  <ol>Type in <code>brew install git</code>. Wait for installation to finish.</ol>
   <ol>After installation, navigate to your desired project destination.</ol></br>
-  <ol><b>OPTIONAL:</b> Create a <i>virtual environment using Python</i> by typing <code>python -m venv &lt;PATH&gt;</code>. This is optional, but encouraged to ensure cleanliness in storage and dependencies.</ol></br>
-  <ol>Once in the desired destination, create another directory by typing <code>mkdir &lt;FOLDER NAME&gt;</code>.</ol>
-  <ol>Navigate to the newly created folder.</ol>
-  <ol>Type in <code>brew install git</code>.</ol>
-  <ol>Navigate terminal inside the folder where project is located.</ol>
   <ol>Type <code>git init</code>.</ol>
+  <ol>Create a <i>virtual environment using Python</i> by typing <code>python -m venv &lt;PATH&gt;</code>. This is optional, but encouraged to ensure cleanliness in storage and dependencies.</ol></br>
+  <ol>Create another folder by typing <code>mkdir &lt;FOLDER NAME&gt;</code>.</ol>
+  <ol>Navigate terminal inside the newly created folder.</ol>
   <ol>Type <code>git pull https://github.com/wewefuma/web_scraping_ATI.git</code>.</ol>
-  <ol>Navigate to base folder.</ol>
-  <ol>Type <code>source bin/activate</code>.</ol>
+  <ol>Navigate to root folder and type <code>source bin/activate</code>.</ol>
   <ol>Type <code>pip install bs4</code>.</ol>
   <ol>Type <code>pip install requests</code>.</ol>
   <ol>Type <code>pip install csv</code>.</ol>
