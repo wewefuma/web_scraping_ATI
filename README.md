@@ -14,7 +14,7 @@
 <ul>
   <ol>Open <b>terminal</b>.</ol>
   <ol>Copy and paste <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code>. Wait for installation to finish.</ol>
-  <ol>On your terminal, type <code>brew install python</code>. Wait for installation to finish.</ol>
+  <ol>Type <code>brew install python</code>. Wait for installation to finish.</ol>
   <ol>Type in <code>brew install git</code>. Wait for installation to finish.</ol>
   <ol>After installation, navigate to your desired project destination.</ol></br>
   <ol>Type <code>git init</code>.</ol>
