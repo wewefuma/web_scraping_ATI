@@ -12,11 +12,11 @@
 <h3>How to use</h3>
 <h4><b>Mac:</b></h4>
 <ul>
-  <ol>Open <bold>terminal</bold>.</ol>
+  <ol>Open <b>terminal</b>.</ol>
   <ol>Copy and paste <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code>.</ol>
   <ol>On your terminal, type <code>brew install python</code>.</ol>
   <ol>After installation, navigate to your desired project destination.</ol>
-  <ol><bold>OPTIONAL:</bold> Create a <italic>virtual environment using Python</italic> by typing <code>python -m venv &lt;PATH&gt;</code>. This is optional, but encouraged to ensure cleanliness in storage and dependencies.</ol>
+  <ol><b>OPTIONAL:</b> Create a <i>virtual environment using Python</i> by typing <code>python -m venv &lt;PATH&gt;</code>. This is optional, but encouraged to ensure cleanliness in storage and dependencies.</ol>
   <ol>Once in the desired destination, create another directory by typing <code>mkdir &lt;FOLDER NAME&gt;</code>.</ol>
   <ol>Navigate to the newly created folder.</ol>
   <ol>Type in <code>brew install git</code>.</ol>
