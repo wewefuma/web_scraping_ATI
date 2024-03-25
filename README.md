@@ -16,7 +16,7 @@
   <ol>Copy and paste <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code>.</ol>
   <ol>On your terminal, type <code>brew install python</code>.</ol>
   <ol>After installation, navigate to your desired project destination.</ol>
-  <ol><b>OPTIONAL:</b> Create a <i>virtual environment using Python</i> by typing <code>python -m venv &lt;PATH&gt;</code>. This is optional, but encouraged to ensure cleanliness in storage and dependencies.</ol>
+  <ol><b>OPTIONAL:</b> Create a <i>virtual environment using Python</i> by typing <code>python -m venv &lt;PATH&gt;</code>. <u>This is optional, but encouraged to ensure cleanliness in storage and dependencies.</u></ol>
   <ol>Once in the desired destination, create another directory by typing <code>mkdir &lt;FOLDER NAME&gt;</code>.</ol>
   <ol>Navigate to the newly created folder.</ol>
   <ol>Type in <code>brew install git</code>.</ol>
